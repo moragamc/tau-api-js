@@ -1,0 +1,21 @@
+{
+  "name": "tau-api",
+  "version": "1.0.0",
+  "description": "My api testing in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha '**/*.spec.js'"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "CMORAGA",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.1.0",
+    "nock": "^13.2.9",
+    "supertest": "^6.3.1"
+  }
+}
