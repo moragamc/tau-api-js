@@ -14,11 +14,11 @@ describe('Post requests', () => {
         })
     });
 
-    // it('form response', () =>{
-    //     request(app)
-    //     .post('/course')
-    //     .send('name=supertest')
-    //     .set('Accept', 'application/x-www-form-urlencoded')
-    //     .expect(200, {"id": "2", "name": "supertest"}, done);
-    // });
+    it('form response', (done) =>{
+        request(app)
+        .post('/course')
+        .send('name=supertest')
+        .set('Accept', 'application/x-www-form-urlencoded')
+        .expect(200, {"id": "2", "name": "supertest"}, done);
+    });
 })
